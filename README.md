@@ -79,8 +79,10 @@ The methods will be tested under multiple parameter settings, including more cha
 ```text
 repo/
 ├── README.md
+├── CONTRIBUTING.md
 ├── pyproject.toml
 ├── requirements.txt
+├── .gitignore
 ├── examples/
 ├── results/
 ├── src/
@@ -89,3 +91,5 @@ repo/
 │       ├── params.py
 │       └── utils.py
 └── tests/
+    ├── test_params.py
+    └── test_utils.py
