@@ -8,6 +8,8 @@ Original file is located at
 """
 
 import numpy as np
+from .params import HestonParams, MonteCarloConfig
+from .utils import make_correlated_normals
 
 class HestonModelSimulator:
     def __init__(self, params: HestonParams, config: MonteCarloConfig):
